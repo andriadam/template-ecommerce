@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserratsb';
+    src: url(../font/Montserrat-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserratel';
+    src: url(../font/Montserrat-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(../font/Lora-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lorab';
+    src: url(../font/Lora-Bold.ttf) format('truetype');
+}
+
+
+
+.navbar {
+    background-color: black;
+    border-bottom: 1px solid #333333;
+}
+
+
+ul li.active a {
+    color: #9D60DA !important;
+    font-family: 'Montserratsb';
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+nav a span {
+    color: #9D60DA;
+}
+
+.carousel-bg {
+    background-color: #0E0D0D;
+    height: 520px;
+}
+
+.row h1 {
+    font-family: 'Lorab';
+}
+
+.row p {
+    font-family: 'Montserrat';
+}
+
+
+#btn-satu,
+#btn-dua {
+    background-color: #9D60DA;
+    font-family: 'Montserratsb';
+}
+
+h3 {
+    font-size: x-large;
+    font-family: 'Lorab';
+    color: #9D60DA;
+}
+
+section.figure1 p,
+section.designer p {
+    color: #757575;
+    font-family: 'Montserrat';
+}
+
+h5 {
+    color: black;
+}
+
+.figure-img a {
+    top: 0;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+
+figure.figure:hover h5 {
+    color: #9D60DA;
+}
+
+figure.figure img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+figure.figure:hover .designer {
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #9D60DA, inset 0 0 8px 3px rgba(0, 0, 0, 0.1);
+    ;
+}
+
+#all-designer {
+    color: #9D60DA;
+}
+
+.ceklis {
+    margin-top: 100px;
+    margin-left: 85px;
+}
+
+.all-right {
+    color: #A7A7A7;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.adam-store {
+    color: black;
+}
+
+
+/* single */
+
+/* Breadcrumb */
+nav .breadcrumb {
+    margin-top: 100px;
+    font-family: 'Montserrat';
+}
+
+.breadcrumb-checkout .breadcrumb {
+    margin-top: 30px;
+}
+
+.breadcrumb a {
+    color: #9D60DA;
+    font-family: 'Montserratsb';
+}
+
+
+.figure-single img {
+    border-radius: 0%;
+}
+
+/* Single Product */
+
+.product-thumbnail-container {
+    background-color: white;
+    width: 368px;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.16);
+    padding: 8px;
+    transform: translateY(-65px);
+}
+
+.product-thumbnail-container:hover a {
+    text-decoration: none;
+}
+
+.single-head h3 {
+    font-family: 'Montserratsb';
+    color: black;
+    font-size: 28px;
+}
+
+.single-head p {
+    font-size: 20px;
+}
+
+#btn-min {
+    color: white;
+    background-color: #D1D1D1;
+}
+
+.single-head span {
+    padding: 8px;
+    font-size: 18px;
+}
+
+#btn-plus {
+    color: white;
+    background-color: #1EC491;
+}
+
+.btn-beli a {
+    width: 250px;
+    color: white;
+    background-color: #9D60DA;
+}
+
+.btn-beli .btn-wis {
+    margin-top: 30px;
+    width: 250px;
+    color: #757575;
+    background-color: #E8E8E8;
+}
+
+.designed-by h4 {
+    font-family: 'Montserratsb';
+    font-size: 18px;
+}
+
+.designed-by .pengikut {
+    font-size: 14px;
+}
+
+.designed-by.pengikut span {
+    font-size: 14px;
+}
+
+
+/* Product description */
+
+.product-description {
+    background-color: #EFEFEF;
+    max-height: 400px;
+}
+
+.product-description .tab-content {
+    border: 1px solid #dee2e6;
+    border-top: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    min-height: 320px;
+}
+
+.product-description ul li a {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.tab-content {
+    max-height: 343px;
+    overflow-y: auto;
+}
+
+figure.figure-similar:hover h4 {
+    color: #9D60DA;
+}
+
+/* Checkout */
+.head-checkout h4 {
+    font-family: 'Lorab';
+    color: #9D60DA;
+    font-size: 24px;
+}
+
+.head-checkout p {
+    font-family: 'Montserratel';
+    color: black;
+    font-size: 18px;
+}
+
+
+
+.checkout h5 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.checkout p {
+    font-family: 'Montserratel';
+    font-size: 18px;
+}
+
+.checkout h4 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+
+}
+
+.checkout-adress {
+    margin: 80px 0;
+    padding: 0;
+}
+
+.bayar {
+    background-color: #E8E8E8;
+    border: 1px solid #BCBCBC;
+}
+
+.bayar h6 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin: 0;
+}
+
+.bayar small {
+    font-family: 'Montserratel';
+    font-size: 16px
+}
+
+.bayar p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #4CCB43;
+}
+
+.cancel a,
+.modal .home {
+    background-color: #E8E8E8;
+    color: #757575;
+    font-size: 20px;
+    border: none;
+}
+
+.beli a {
+    background-color: #9D60DA;
+    color: white;
+    font-size: 20px;
+}
+
+.category-page {
+    margin-top: 100px;
+}

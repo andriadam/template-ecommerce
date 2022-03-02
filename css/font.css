@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat-Regular.ttf) format('truetype');
+    font-family: 'Montserratsb';
+    src: url(../font/Montserrat-SemiBold.ttf) format('truetype');
+    font-family: 'Montserratel';
+    src: url(../font/Montserrat-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(../font/Lora-Regular.ttf) format('truetype');
+    font-family: 'Lorab';
+    src: url(../font/Lora-Bold.ttf) format('truetype');
+}
